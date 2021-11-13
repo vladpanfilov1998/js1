@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+//- Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+//Вивести кожну змінну за допомогою: console.log , alert, document.write
+
+let a;
+a = 'hello';
+console.log(a);
+alert(a);
+document.write(a);
+
+let b;
+b = 'owu';
+console.log(b);
+alert(b);
+document.write(b);
+
+let c;
+c = 'com';
+console.log(c);
+alert(c);
+document.write(c);
+
+let d;
+d = 'ua';
+console.log(d);
+alert(d);
+document.write(d);
+
+let e;
+e = 1;
+console.log(e);
+alert(e);
+document.write(e);
+
+let q;
+q = 10;
+console.log(q);
+alert(q);
+document.write(q);
+
+let w;
+w = -999;
+console.log(w);
+alert(w);
+document.write(w);
+
+let r;
+r = 123;
+console.log(r);
+alert(r);
+document.write(r);
+
+let p;
+p = 3.14;
+console.log(p);
+alert(p);
+document.write(p);
+
+let x;
+x = 2.7;
+console.log(x);
+alert(x);
+document.write(x);
+
+let s;
+s = 16;
+console.log(s);
+alert(s);
+document.write(s);
+
+let y;
+y = true;
+console.log(y);
+alert(y);
+document.write(y);
+
+let z;
+z = false;
+console.log(z);
+alert(z);
+document.write(z);
+
+//- Переприсвоїти кожній змінній з завдання значення на довільне.
+//Вивести кожну змінну за допомогою: console.log , alert, document.write
+
+a = 100;
+console.log(a);
+alert(a);
+document.write(a);
+
+b = 200;
+console.log(b);
+alert(b);
+document.write(b);
+
+c = 'HELLO';
+console.log(c);
+alert(c);
+document.write(c);
+
+d = 'okten';
+console.log(d);
+alert(d);
+document.write(d);
+
+e = 1000;
+console.log(e);
+alert(e);
+document.write(e);
+
+q = 330;
+console.log(q);
+alert(q);
+document.write(q);
+
+w = 'ua';
+console.log(w);
+alert(w);
+document.write(w);
+
+r = -100;
+console.log(r);
+alert(r);
+document.write(r);
+
+p = 1490;
+console.log(p);
+alert(p);
+document.write(p);
+
+x = 50;
+console.log(x);
+alert(x);
+document.write(x);
+
+s = 999;
+console.log(s);
+alert(s);
+document.write(s);
+
+y = false;
+console.log(y);
+alert(y);
+document.write(y);
+
+z = true;
+console.log(z);
+alert(z);
+document.write(z);
+
+//- Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
+
+let firstName;
+firstName = 'Vladislav';
+let middleName;
+middleName= 'Mihailovich';
+let lastName;
+lastName = 'Panfilov';
+let person;
+person = firstName + middleName + lastName;
+
+//- За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+//Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
+
+let firstName;
+firstName = prompt('Як вас звати?', '');
+
+let middleName;
+middleName = prompt('Ваше по-батькові?', '');
+
+let age;
+age = prompt('Ваш вік?', '');
+
+console.log('Вітаю '+firstName+' '+middleName+'.'+' Тобі '+age+' років.');
+
+
+//- За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+let a = 100; let b = '100'; let c = true;
+
+console.log (typeof a); //number
+console.log (typeof b); //string
+console.log (typeof c); //boolean
+
+//- Визначити відповідний оператор в виразах що б вийшов відповідний результат.
+//В однакових виразах не використовувати однакові оператори!!!
+
+5 < 6 -> true
+5 > 6 -> false
+5 >= 6 -> false
+5 === 6 -> false
+10 === 10 -> true
+10 == 10 -> true
+10 != 10 -> false
+10 < 10 -> false
+10 < 10 -> false
+123 != '123' -> false
+123 == '123' -> true
+
+
+//- Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
+let str = "20";
+let a = 5;
+document.write(str + a + "<br/>");   //205 Если для преобразования применяется оператор "+", у которого один из аргументов строка - он приводит к строке и другой аргумент.
+document.write(str - a + "<br/>");   //15 Когда операция применяется не к числу, а к строке, строки преобразуются в числа.
+document.write(str * "2" + "<br/>");   //40
+document.write(str / 2 + "<br/>");  //10
+
+</script>
+
+</body>
+</html>
